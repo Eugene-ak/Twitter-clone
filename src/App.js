@@ -1,13 +1,13 @@
-// import ClassComponent from './components/ClassComponent';
 import Header from './components/Header';
-import TestFunctionComponent from './components/FuntionComponent';
+import Home from './components/Home';
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
     <>
       <Header />
-      {/* <ClassComponent /> */}
-      <TestFunctionComponent />
+      <Sidebar />
+      <Home />
     </>
   );
 }
