@@ -12,8 +12,8 @@ export default function Home() {
     "w-1/4 h-max flex flex-col gap-y-3 justify-between items-center";
 
   return (
-    <main className="w-[55%] m-auto h-max flex flex-col justify-start items-center pt-12 gap-y-10">
-      <div className="top-section w-[100%] h-max p-4 bg-white shadow-md flex flex-row justify-between items-end">
+    <main className="w-[55%] m-auto h-max text-[#14171A] flex flex-col justify-start items-center pt-12 gap-y-10">
+      <div className="top-section w-[100%] h-max p-4 bg-[#F5F8FA] shadow-md flex flex-row justify-between items-end">
         <button
           type="button"
           onClick={() => handleSectionChange("tweets")}
@@ -47,7 +47,7 @@ export default function Home() {
           <span>200</span>
         </button>
       </div>
-      <div className="posts bg-white w-[100%] h-[60vh] p-4 border overflow-y-auto">
+      <div className="posts bg-[#F5F8FA] w-[100%] h-[60vh] p-4 border overflow-y-auto">
         <Posts />
         <Posts />
         <Posts />

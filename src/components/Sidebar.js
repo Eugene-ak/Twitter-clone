@@ -10,15 +10,15 @@ import {
 export default function Sidebar() {
   return (
     <>
-      <aside className="left-sidebar bg-[#1DA1F2] fixed left-0 flex flex-col w-1/5 h-screen text-white">
+      <aside className="left-sidebar bg-[#1DA1F2] fixed left-0 flex flex-col w-1/5 h-screen text-[#F5F8FA]">
         <div className="px-4 py-8 flex flex-col items-center justify-evenly gap-4">
           <img
             src="/logo192.png"
             alt="profile"
-            className="bg-white w-20 h-20 border rounded-full"
+            className="bg-[#F5F8FA] w-20 h-20 border rounded-full"
           />
           <h6 className="font-bold">Memphis Depay</h6>
-          <p className="text-center text-sm text-slate-200">
+          <p className="text-center text-sm text-[#F5F8FA]">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea nobis
             asperiores porro non accusantium ex quidem modi delectus, velit
             corporis fugit quo vel soluta tempore. Ratione a nemo repellat nam?
@@ -91,7 +91,7 @@ export default function Sidebar() {
         </div>
       </aside>
 
-      <aside className="right-sidebar bg-white w-1/5 h-screen p-6 fixed right-0 border">
+      <aside className="right-sidebar bg-[#F5F8FA] text-[#14171A] w-1/5 h-screen p-6 fixed right-0 border">
         <div className=" mb-4">
           <h4 className="text-xl mb-4">Philippines Trends</h4>
           <ul className="text-sm text-[#1DA1F2]">

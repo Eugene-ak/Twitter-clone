@@ -4,7 +4,7 @@ import { faEnvelope, faUser, faHashtag, faHome } from "@fortawesome/free-solid-s
 
 const Header = () => {
   return (
-    <header className="w-full h-max m-0 flex flex-row justify-between items-center text-gray-700 bg-white border-t border-gray-100 shadow-sm body-font">
+    <header className="w-full h-max m-0 flex flex-row justify-between items-center text-[#14171A] bg-[#F5F8FA] border-t border-gray-100 shadow-sm body-font">
       <div className="flex flex-row">
         <div className="border-r-2">
           <img
